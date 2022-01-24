@@ -1,0 +1,35 @@
+/*style sheet created for externalstylesheet. 
+it is possible to reuse it this file
+as a general pattern style*/
+
+h1{
+
+	font-size:  250%;
+	color: yellow;
+	background-color: grey;
+}
+header{
+	background: grey;
+	text-align: center;
+}
+nav{
+	font-variant: small-caps;
+	font-size: 150%;
+	font-family: Arial, "Time New Roman", serif;";
+}
+h2{
+	color: blue;
+	background: #00B7EA;
+}
+details{
+	font-style: italic;
+}
+summary{
+	font-style: normal;
+}
+p{
+	color: black;
+}
+footer{
+	background: grey;
+}

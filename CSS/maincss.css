@@ -1,0 +1,14 @@
+/*style sheet created for externalstylesheet. 
+it is possible to reuse it this file
+as a general pattern style*/
+
+h1{
+	
+	font-size:  150%;
+	color: blue;
+	background-color: #B3B3B3;
+}
+
+p{
+	color:red;
+}

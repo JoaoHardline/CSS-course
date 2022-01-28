@@ -1,0 +1,123 @@
+body {
+	padding: 10px;
+	margin: 1%;
+}
+
+header {
+	/*background-color: #444d30;*/
+	background-image: url("../images/flywheel.jpg");
+	background-size:100%;
+	padding:15px;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 250%;
+	text-transform: uppercase;
+}
+
+nav a{
+	-webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	-o-border-radius: 3;
+	border-radius: 5px;
+
+	display: inline-block;
+	margin: 2%;
+
+	text-decoration: none;
+	padding: 2%;
+
+	color: #000000;
+	text-align: center;
+	/*vertical-align: middle;*/
+	background-color: rgba(235, 235, 235, 0.4);
+	width:150px;
+	height: 20px;
+
+}
+.active {
+	background-color: #FFFFFF;
+}
+
+.left {
+	background-color: #707920;
+	width: 24%;
+	float:left;
+	padding: 5% 0;
+}
+
+.right {
+	width:55%;
+	display: inline-block;
+	padding-left: 2%;
+	font-size: 150%;
+}
+
+.left img {
+	border: solid 2px #000000;
+	width: 80%;
+	margin: 10%;
+}
+table{
+	box-sizing: border-box;
+	line-height: 40px;
+	background-color: #ffffff;
+	margin: auto;
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	padding: 1px;
+}
+th{
+	box-sizing: border-box;
+    border-collapse: collapse;
+
+    -webkit-background-color: #dffffd;
+    -moz-background-color: #dffffd;
+    -o-background-color: #dffffd;
+	
+    background-color: #e7f5e7;
+    -webkit-linear-gradient: (#dff000, #83f045);
+    -moz-linear-gradient: (#dff000, #6ae770);
+    -o-linear-gradient: (#dff000, #6df168);
+    background-image:linear-gradient(#7db38f 20%, #b9c059 100%);
+    color: #ffffff;
+    border: #8fd341  solid 1px;
+    border-bottom: 2px solid #87cc8d;
+    border-radius: 5px 5px 0px 0px;
+    font-family: sans-serif, cursive;
+	padding: 10px;
+}
+tr > th{
+	text-align: left;
+	padding-left: 15px;
+}
+tr{
+	opacity: 0.4;
+	background-color: #e1ffba;
+	border: px;
+	border-radius: 2px;
+	text-align: center;
+	transition: opacity .2s; 
+}
+tr:hover{
+	opacity: 1;
+}
+tr:first-child{
+	opacity: 1;
+}
+td{
+	border: 5px;
+	padding: 2px;
+	padding-left: 10px;
+}
+tr:first-child{
+	border-left: none;
+}
+tr > td:first-child{
+	text-align: left;
+	
+}
+
